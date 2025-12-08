@@ -838,7 +838,7 @@ input[type="radio"] {
 }
 
 #confettiLabel {
-	display: none;
+	display: flex;
 	gap: 1em;
 	align-items: center;
 }
