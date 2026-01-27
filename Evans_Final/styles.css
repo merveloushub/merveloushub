@@ -395,7 +395,11 @@ header div {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
+<<<<<<< Updated upstream
 	background-image: url(https://merveloushub.github.io/home/Evans_Final/assets/icons/saturn.svg);
+=======
+	background-image: url(/assets/icons/saturn.svg);
+>>>>>>> Stashed changes
 }
 
 .nav-buttons {
@@ -403,17 +407,29 @@ header div {
 }
 
 [data-theme="dark"] #modeBtn {
+<<<<<<< Updated upstream
 	mask: url(https://merveloushub.github.io/home/Evans_Final/assets/icons/moon.svg) no-repeat center;
+=======
+	mask: url(/assets/icons/moon.svg) no-repeat center;
+>>>>>>> Stashed changes
 	mask-size: contain;
 }
 
 [data-theme="light"] #modeBtn {
+<<<<<<< Updated upstream
 	mask: url(https://merveloushub.github.io/home/Evans_Final/assets/icons/sun.svg) no-repeat center;
+=======
+	mask: url(/assets/icons/sun.svg) no-repeat center;
+>>>>>>> Stashed changes
 	mask-size: contain;
 }
 
 #cart {
+<<<<<<< Updated upstream
 	mask: url(https://merveloushub.github.io/home/Evans_Final/assets/icons/cart.svg) no-repeat center;
+=======
+	mask: url(/assets/icons/cart.svg) no-repeat center;
+>>>>>>> Stashed changes
 	mask-size: contain;
 }
 
@@ -436,7 +452,11 @@ nav li {
 	display: block;
 	text-align: center;
 	border: 2px solid transparent;
+<<<<<<< Updated upstream
 	border-top-color: var(--section-bg);
+=======
+		border-top-color: var(--section-bg);
+>>>>>>> Stashed changes
 	border-right-color: var(--section-bg);
 	border-left-color: var(--section-bg);
 }
@@ -451,12 +471,21 @@ nav li:hover {
 	animation: navHover 2s ease infinite;
 }
 
+<<<<<<< Updated upstream
 @keyframes navHover {
 	from {
 		background-position: 100% 0%;
 	}
 	to {
 		background-position: 0% 0%;
+=======
+@keyframes navHover { 
+	from {
+	background-position: 100% 0%;
+	}
+	to {
+	background-position: 0% 0%;
+>>>>>>> Stashed changes
 	}
 }
 
@@ -739,7 +768,11 @@ input[type="radio"] {
 }
 
 #closePopup {
+<<<<<<< Updated upstream
 	mask: url(https://merveloushub.github.io/home/Evans_Final/assets/icons/x.svg);
+=======
+	mask: url(/assets/icons/x.svg);
+>>>>>>> Stashed changes
 	mask-size: contain;
 	position: absolute;
 	top: 0;
@@ -837,6 +870,7 @@ input[type="radio"] {
 	visibility: hidden;
 }
 
+<<<<<<< Updated upstream
 #confettiLabel {
 	display: flex;
 	gap: 1em;
@@ -854,6 +888,8 @@ input[type="radio"] {
 	text-transform: none;
 }
 
+=======
+>>>>>>> Stashed changes
 /* footer -------------------------------------------------- ⟡ */
 footer,
 footer .container,
@@ -893,17 +929,29 @@ footer ul {
 }
 
 footer li:nth-child(1) {
+<<<<<<< Updated upstream
 	mask: url(https://merveloushub.github.io/home/Evans_Final/assets/icons/instagram.svg) no-repeat center;
+=======
+	mask: url(/assets/icons/instagram.svg) no-repeat center;
+>>>>>>> Stashed changes
 	mask-size: contain;
 }
 
 footer li:nth-child(2) {
+<<<<<<< Updated upstream
 	mask: url(https://merveloushub.github.io/home/Evans_Final/assets/icons/twitter.svg) no-repeat center;
+=======
+	mask: url(/assets/icons/twitter.svg) no-repeat center;
+>>>>>>> Stashed changes
 	mask-size: contain;
 }
 
 footer li:nth-child(3) {
+<<<<<<< Updated upstream
 	mask: url(https://merveloushub.github.io/home/Evans_Final/assets/icons/youtube.svg) no-repeat center;
+=======
+	mask: url(/assets/icons/youtube.svg) no-repeat center;
+>>>>>>> Stashed changes
 	mask-size: contain;
 }
 
@@ -955,4 +1003,8 @@ footer li:nth-child(3) {
 	#featureBtns {
 		align-items: center;
 	}
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes

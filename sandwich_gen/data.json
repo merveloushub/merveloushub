@@ -41,6 +41,7 @@
     { "name": "cabbage", "color": "green" },
     { "name": "capers", "color": "yellowgreen" },
     { "name": "carrots", "color": "orange" },
+    { "name": "capers", "color": "yellowgreen" },
     { "name": "cheddar", "color": "cheese" },
     { "name": "chicken breast", "color": "chicken" },
     { "name": "chicken salad", "color": "chicken" },
