@@ -396,7 +396,11 @@ header div {
 	background-position: center;
 	background-size: contain;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	background-image: url(https://merveloushub.github.io/home/Evans_Final/assets/icons/saturn.svg);
+=======
+	background-image: url(/assets/icons/saturn.svg);
+>>>>>>> Stashed changes
 =======
 	background-image: url(/assets/icons/saturn.svg);
 >>>>>>> Stashed changes
@@ -408,7 +412,11 @@ header div {
 
 [data-theme="dark"] #modeBtn {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	mask: url(https://merveloushub.github.io/home/Evans_Final/assets/icons/moon.svg) no-repeat center;
+=======
+	mask: url(/assets/icons/moon.svg) no-repeat center;
+>>>>>>> Stashed changes
 =======
 	mask: url(/assets/icons/moon.svg) no-repeat center;
 >>>>>>> Stashed changes
@@ -417,7 +425,11 @@ header div {
 
 [data-theme="light"] #modeBtn {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	mask: url(https://merveloushub.github.io/home/Evans_Final/assets/icons/sun.svg) no-repeat center;
+=======
+	mask: url(/assets/icons/sun.svg) no-repeat center;
+>>>>>>> Stashed changes
 =======
 	mask: url(/assets/icons/sun.svg) no-repeat center;
 >>>>>>> Stashed changes
@@ -426,7 +438,11 @@ header div {
 
 #cart {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	mask: url(https://merveloushub.github.io/home/Evans_Final/assets/icons/cart.svg) no-repeat center;
+=======
+	mask: url(/assets/icons/cart.svg) no-repeat center;
+>>>>>>> Stashed changes
 =======
 	mask: url(/assets/icons/cart.svg) no-repeat center;
 >>>>>>> Stashed changes
@@ -453,7 +469,11 @@ nav li {
 	text-align: center;
 	border: 2px solid transparent;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	border-top-color: var(--section-bg);
+=======
+		border-top-color: var(--section-bg);
+>>>>>>> Stashed changes
 =======
 		border-top-color: var(--section-bg);
 >>>>>>> Stashed changes
@@ -472,6 +492,7 @@ nav li:hover {
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 @keyframes navHover {
 	from {
 		background-position: 100% 0%;
@@ -479,12 +500,17 @@ nav li:hover {
 	to {
 		background-position: 0% 0%;
 =======
+=======
+>>>>>>> Stashed changes
 @keyframes navHover { 
 	from {
 	background-position: 100% 0%;
 	}
 	to {
 	background-position: 0% 0%;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	}
 }
@@ -769,7 +795,11 @@ input[type="radio"] {
 
 #closePopup {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	mask: url(https://merveloushub.github.io/home/Evans_Final/assets/icons/x.svg);
+=======
+	mask: url(/assets/icons/x.svg);
+>>>>>>> Stashed changes
 =======
 	mask: url(/assets/icons/x.svg);
 >>>>>>> Stashed changes
@@ -871,6 +901,7 @@ input[type="radio"] {
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #confettiLabel {
 	display: flex;
 	gap: 1em;
@@ -888,6 +919,8 @@ input[type="radio"] {
 	text-transform: none;
 }
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 /* footer -------------------------------------------------- ⟡ */
@@ -930,7 +963,11 @@ footer ul {
 
 footer li:nth-child(1) {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	mask: url(https://merveloushub.github.io/home/Evans_Final/assets/icons/instagram.svg) no-repeat center;
+=======
+	mask: url(/assets/icons/instagram.svg) no-repeat center;
+>>>>>>> Stashed changes
 =======
 	mask: url(/assets/icons/instagram.svg) no-repeat center;
 >>>>>>> Stashed changes
@@ -939,7 +976,11 @@ footer li:nth-child(1) {
 
 footer li:nth-child(2) {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	mask: url(https://merveloushub.github.io/home/Evans_Final/assets/icons/twitter.svg) no-repeat center;
+=======
+	mask: url(/assets/icons/twitter.svg) no-repeat center;
+>>>>>>> Stashed changes
 =======
 	mask: url(/assets/icons/twitter.svg) no-repeat center;
 >>>>>>> Stashed changes
@@ -948,7 +989,11 @@ footer li:nth-child(2) {
 
 footer li:nth-child(3) {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	mask: url(https://merveloushub.github.io/home/Evans_Final/assets/icons/youtube.svg) no-repeat center;
+=======
+	mask: url(/assets/icons/youtube.svg) no-repeat center;
+>>>>>>> Stashed changes
 =======
 	mask: url(/assets/icons/youtube.svg) no-repeat center;
 >>>>>>> Stashed changes
@@ -1004,7 +1049,11 @@ footer li:nth-child(3) {
 		align-items: center;
 	}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
 =======
 }
 >>>>>>> Stashed changes
