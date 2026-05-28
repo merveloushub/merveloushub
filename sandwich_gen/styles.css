@@ -1,295 +1,387 @@
 /* IMPORT */
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Creepster&family=Lexend:wght@100..900&display=swap");
 
 /* RESET */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-    display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
 }
 body {
-    line-height: 1;
+	line-height: 1;
 }
-ol, ul {
-    list-style: none;
+ol,
+ul {
+	list-style: none;
 }
-blockquote, q {
-    quotes: none;
+blockquote,
+q {
+	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
 }
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 /* ROOT */
 :root {
-    --background: #1c2542;
-    --hover: #313c5c;
-    --accent3: #9bace7;
+	--background: #1c2542;
+	--hover: #313c5c;
+	--accent3: #9bace7;
 }
 
 /* ---------------------------------------- */
 /* GLOBAL */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-    background-image: url(https://merveloushub.github.io/home/sandwich_gen/assets/background.jpg);
-    background-color: var(--background);
-    color: white;
-    font-family: "lexend", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5em;
-    overflow-x: hidden;
-    position: relative;
+	background-image: url(https://merveloushub.github.io/home/sandwich_gen/assets/background.jpg);
+	background-color: var(--background);
+	color: white;
+	font-family: "lexend", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	overflow-x: hidden;
+	position: relative;
 }
 
-h1, h2 {
-    font-weight: bold;
-    text-align: center;
+h1,
+h2 {
+	font-weight: bold;
+	text-align: center;
 }
 
-h2, h3 {
-    text-align: left;
+h2,
+h3 {
+	text-align: left;
 }
 
 h1 {
-    font-size: 2.25em;
-    line-height: 1em;
-    text-shadow: 0 0 0.5em black;
+	font-size: 2.5rem;
+	line-height: 1.25;
+	text-shadow: 0 0 0.5em black;
+	font-family: "creepster", "lexend", sans-serif;
 }
 
 h2 {
-    font-size: 1.5em;
+	font-size: 1.5rem;
 }
 
 h3 {
-    font-size: 1.25em;
-    font-weight: 500;
+	font-size: 1.25rem;
+	font-weight: 500;
 }
 
-a, #infoClose {
-    color: var(--accent3);
-    text-decoration: none;
-    font-weight: bold;
+a,
+#infoClose {
+	color: var(--accent3);
+	text-decoration: none;
+	font-weight: bold;
 }
 
-a:hover, #infoClose:hover {
-    color: #d1d7f0;
-    transition: 0.5s ease;
+a:hover,
+#infoClose:hover {
+	color: #d1d7f0;
+	transition: 0.5s ease;
 }
 
 .wrapper {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
 }
 
 .container {
-    display: flex;
-    flex-flow: column nowrap;
-    max-width: 750px;
-    width: 100%;
-    height: 1048px;
-    gap: 2em;
-    padding: 2em 0;
+	display: flex;
+	flex-flow: column nowrap;
+	max-width: 750px;
+	width: 100%;
+	height: 1048px;
+	gap: 1.5rem;
+	padding: 2em 0;
 }
 
-main section:first-child, button {
-    border-radius: 0.25em;
-    border: 0.125em white solid;
+main section:first-child,
+button {
+	border-radius: 0.25em;
+	border: 0.125em white solid;
 }
 
 /* HEADER AND MAIN */
 main {
-    display: flex;
-    flex-flow: column nowrap;
-    height: auto;
-    gap: 2em;
+	display: flex;
+	flex-flow: column nowrap;
+	height: auto;
+	gap: 1.5rem;
 }
 
 main section:first-child {
-    background-color: var(--background);
-    padding: 2em;
+	background-color: var(--background);
+	padding: 2em;
 
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
 
-    row-gap: 1em;
-    column-gap: 2em;
+	row-gap: 1em;
+	column-gap: 2em;
 
-    height: auto;
-    width: 100%;
+	height: auto;
+	width: 100%;
 }
 
 /* LIST AND LIST ITEMS*/
 ul {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
 
-    padding: 2em;
-    gap: 0.75em;
-    height: auto;
-    width: 100%;
-    box-sizing: border-box;
+	padding: 2em;
+	gap: 0.75em;
+	height: auto;
+	width: 100%;
+	box-sizing: border-box;
 }
 
 li {
-    width: 225px;
-    border-radius: 4em;
+	width: 225px;
+	border-radius: 4em;
 }
 
-li, button {
-    text-align: center;
-    padding: 1em;
-    background-color: var(--bread);
+li,
+button {
+	text-align: center;
+	padding: 1em;
+	background-color: var(--bread);
 }
 
 li:first-child {
-    border-radius: 2.5em 2.5em 0.25em 0.25em;
-    color: #000000e1;
+	border-radius: 2.5em 2.5em 0.25em 0.25em;
+	color: #000000e1;
 }
 
 li:last-child {
-    border-radius: 0.25em 0.25em 2.5em 2.5em;
-    color: #000000e1;
+	border-radius: 0.25em 0.25em 2.5em 2.5em;
+	color: #000000e1;
 }
 
 .condiment-item {
-    padding: 0.5em 1em;
+	padding: 0.5em 1em;
 }
 
-.container > *, ul, ul > li {
-    min-width: 0;
+.container > *,
+ul,
+ul > li {
+	min-width: 0;
 }
 
 /* button */
 main section:nth-child(2) {
-    display: flex;
-    justify-content: center;
-    gap: 2em;
+	display: flex;
+	justify-content: center;
+	gap: 2em;
 }
 
 main section:nth-child(2) button {
-    display: flex;
-    gap: 0.5em;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	gap: 0.5em;
+	justify-content: center;
+	align-items: center;
 }
 
 button {
-    font-size: 1em;
-    font-family: "lexend", sans-serif;
+	font-size: 1rem;
+	font-family: "lexend", sans-serif;
 
-    background-color: var(--background);
-    color: white;
-    cursor: pointer;
-    padding: 1em 1.5em;
+	background-color: var(--background);
+	color: white;
+	cursor: pointer;
+	padding: 1em 1.5em;
 }
 
 button:hover {
-    background-color: var(--hover);
-    transition: 0.5s ease background-color;
+	background-color: var(--hover);
+	transition: 0.5s ease background-color;
 }
 
 /* ICONS */
 .icon {
-    color: white;
+	color: white;
 }
 
 /* INFO */
 #infoContent {
-    background-color: var(--background);
-    display: none;
-    position: relative;
-    flex-flow: column nowrap;
-    gap: 1em;
-    width: fit-content;
-    justify-content: flex-start;
+	background-color: var(--background);
+	display: none;
+	position: relative;
+	flex-flow: column nowrap;
+	gap: 1em;
+	width: fit-content;
+	justify-content: flex-start;
 }
 
-ul.infoActive, button.infoActive {
-    display: none;
+ul.infoActive,
+button.infoActive {
+	display: none;
 }
 
 #infoContent.infoActive {
-    display: flex;
+	display: flex;
 }
 
 #infoClose {
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 2em;
-    aspect-ratio: 1;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 2em;
+	aspect-ratio: 1;
 }
 
 #infoContent ul {
-    padding: 0;
-    list-style-type: disc;
-    gap: 0;
-    margin-left: 1.5em;
+	padding: 0;
+	list-style-type: disc;
+	gap: 0;
+	margin-left: 1.5em;
 }
 
 #infoContent ul li {
-    background-color: transparent;
-    color: white;
-    text-align: left;
-    padding: 0;
-    line-height: 1.5em;
-    list-style-position: inside;
+	background-color: transparent;
+	color: white;
+	text-align: left;
+	padding: 0;
+	line-height: 1.5em;
+	list-style-position: inside;
 }
 
-#infoContent ul, #infoContent li {
-    width: revert;
-    align-items: flex-start;
+#infoContent ul,
+#infoContent li {
+	width: revert;
+	align-items: flex-start;
 }
 
 /* MEDIA */
 @media (max-width: 768px) {
-    .container {
-        padding: 1em;
-    }
+	.container {
+		padding: 1em;
+	}
 
-    ul {
-        padding: 1em;
-    }
+	ul {
+		padding: 1em;
+	}
 
-    li {
-        max-width: none;
-    }
+	li {
+		max-width: none;
+	}
 }
